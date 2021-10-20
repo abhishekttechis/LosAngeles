@@ -361,16 +361,16 @@ a {
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 1200px) {
+@media screen and (min-width: 400px) and (max-width: 650px) {
   .history .number1 {
-    top: 9%;
-    left: 10%;
+    top: 1%;
+    left: 6%;
     font: 120px sans-serif;
   }
   .history .heading1 {
-    top: 12%;
+    top: 8%;
     font-size: 40px;
-    left: 23%;
+    left: 34%;
   }
 
   .history .pictures {
@@ -400,9 +400,9 @@ a {
   }
   .history .h1text {
     position: absolute;
-    left: 9%;
-    top: 23%;
-    font-size: 30px;
+    left: 6%;
+    top: 20%;
+    font-size: 14px;
     color: #2e2d2d;
     line-height: 20px;
   }
@@ -473,26 +473,26 @@ a {
 
 @media screen and (min-width: 401px) and (max-width: 1200px) {
   .header3 .number2 {
-    left: 8%;
-    top: 14%;
-    font: 159px sans-serif;
+    left: 0%;
+    top: 6%;
+    font: 123px sans-serif;
   }
 
   .header3 .heading2 {
-    font-size: 77px;
+    font-size: 73px;
     position: absolute;
-    left: 34%;
-    top: 22%;
+    left: 36%;
+    top: 8%;
     color: #41516b;
   }
 
   .header3 .h2text {
     position: absolute;
-    left: 35%;
+    left: 39%;
     top: 45%;
     color: #2e2d2d;
     line-height: 22px;
-    font-size: 27px;
+    font-size: 12px;
   }
 }
 
@@ -595,5 +595,31 @@ a {
 
   .footer .content .nav2 li {
     font-size: 8px;
+  }
+}
+@media (min-device-width: 769px) and (max-device-width: 1024px) {
+  .history .heading1 {
+    top: 14%;
+  }
+  .history .number1 {
+    left: 16%;
+  }
+  .history .h1text {
+    font-size: 26px;
+    top: 22%;
+  }
+}
+@media (min-device-width: 769px) and (max-device-width: 1024px) {
+  .header3 .number2 {
+    top: 19%;
+    font-size: 191px;
+  }
+  .header3 .heading2 {
+    top: 27%;
+  }
+  .header3 .h2text {
+    left: 37%;
+    top: 50%;
+    font-size: 29px;
   }
 }
